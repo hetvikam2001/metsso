@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+metsso.pmli.corp	TRUE	/Self/	FALSE	1999999999	JSESSIONID	0000E4Z2OOyZf0HnIZAMhXDYKz8:-1
+.pmli.corp	TRUE	/	FALSE	1999999999	PD-S-SESSION-ID	0_SQQYAYuqqOHG5pGTQDuH1ss4sWDOfKm1m3c+OJZUVAlOlihp3+Q=
+

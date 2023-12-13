@@ -1,0 +1,232 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- Mirrored from metsso.pmli.corp/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 12 Dec 2023 11:50:07 GMT -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<META http-equiv="Content-Style-Type" content="text/css">
+<META Http-Equiv="Cache-Control" Content="no-store">
+<META Http-Equiv="Cache-Control" Content="no-cache">
+<META Http-Equiv="Pragma" Content="no-cache">
+<META Http-Equiv="Expires: Thu, 01 Dec 1994 16:00:00 GMT" Content="0">
+<title>WelCome to MetSSO</title>
+
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #0A7CBA;
+}
+
+.logintitle {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: #fff;
+}
+
+x
+;
+}
+.logintext {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #666;
+}
+
+.logintext1 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #666;
+}
+
+.loginbtn {
+	font-family: "Arial", Gadget, sans-serif;
+	width: 100px;
+	height: 30px;
+	background: url(images/loginbtn.jpg);
+	background-repeat: no-repeat;
+	border: none;
+}
+
+.border {
+	border-bottom: 1px solid #999;
+}
+
+.passwordbtn {
+	width: 140px;
+	height: 30px;
+	background: url(images/forgot.jpg);
+	background-repeat: no-repeat;
+	border: none;
+	padding: 0 0 0 25px;
+}
+-->
+</style>
+<style type="text/css">
+<!--
+A:link {
+	COLOR: #666
+}
+
+A:visited {
+	COLOR: #666
+}
+
+A:active {
+	COLOR: #666
+}
+
+A:hover {
+	COLOR: blue
+}
+-->
+</style>
+</SCRIPT>
+<SCRIPT LANGUAGE=JavaScript>
+	function move() {
+		//alert("Hello");
+		window.location = 'Self/pmliotp/index.html'
+	}
+</SCRIPT>
+</head>
+<SCRIPT LANGUAGE=JavaScript>
+	function body_onLoad() {
+		if (window.location != "index.html") {
+			window.location = "index.html";
+		}
+		if (document.getElementById("username").value != '') {
+			document.getElementById("password").value = '';
+			document.getElementById("password").focus();
+		} else {
+			document.getElementById("username").focus();
+		}
+	}
+</SCRIPT>
+<SCRIPT LANGUAGE=JavaScript>
+	function check() {
+		
+		if ((document.getElementById("username_textfield").value == '') || (document.getElementById("username_textfield").value == null)) {
+			alert("You must enter your Username to login");
+			document.getElementById("username_textfield").focus();
+			return false;
+		} else if ((document.getElementById("password_textfield").value == '') || (document.getElementById("password_textfield").value == null)){
+			alert("You must enter your Password to login");
+			document.getElementById("password_textfield").focus();
+			return false;
+		}
+		
+	}
+	
+</script>
+<body>
+	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+			<td width="2%" height="98" valign="baseline"
+				background="images/topbanbg.png" bgcolor="#FEFFFA">&nbsp;</td>
+			<td width="83%" valign="baseline" background="images/topbanbg.png"
+				bgcolor="#FEFFFA"><br>
+			<img src="images/loginlogo.png" width="121" height="70" /></td>
+			<td width="15%" valign="middle" background="images/topbanbg.png"
+				bgcolor="#FEFFFA"><table width="95%" border="0"
+					cellspacing="0" cellpadding="0">
+					<tr>
+						<td height="90" valign="bottom"><img src="images/logo.jpg"
+							width="222" height="75" /></td>
+					</tr>
+				</table></td>
+		</tr>
+		<tr>
+			<td height="140" colspan="3" bgcolor="#0a7cba">&nbsp;</td>
+		</tr>
+		<tr>
+			<td colspan="3" bgcolor="#0a7cba"><table width="450" border="0"
+					align="center" cellpadding="0" cellspacing="0">
+					<tr>
+						<td width="13" height="30" valign="top"><img
+							src="images/topleftimg.jpg" width="13" height="30" /></td>
+						<td background="images/topmidimg.jpg" class="logintitle">Log
+							In</td>
+						<td width="12" height="30" valign="top"><img
+							src="images/toprightimg.jpg" width="12" height="30" /></td>
+					</tr>
+					<tr>
+						<td bgcolor="#FFFFFF">&nbsp;</td>
+						<td valign="top" bgcolor="#FFFFFF"><table width="95%"
+								border="0" align="center" cellpadding="0" cellspacing="0">
+								<tr>
+									<td height="76" valign="top"><img
+										src="images/loginicon.jpg" width="89" height="76" /></td>
+									<td>&nbsp;</td>
+								</tr>
+								<tr>
+									<td colspan="2"><table width="55%" border="0"
+											align="center" cellpadding="2" cellspacing="2">
+											<tr>
+												<FORM METHOD=POST AutoComplete="off"
+													ACTION="https://metsso.pmli.corp/pkmslogin.form" name="loginForm">
+													<FONT SIZE="-1">
+														<td width="35%" class="logintext">UserName:</td>
+														<td width="65%" valign="top"><label> <input
+																type="text" name="username" id="username_textfield"
+																style="width: 130px;" />
+														</label></td>
+											</tr>
+											<tr>
+												<td class="logintext">Password:</td>
+												<td valign="top"><input type="PASSWORD" name="password"
+													id="password_textfield" style="width: 130px;" /></td>
+											</tr>
+											<tr>
+												<td>&nbsp;</td>
+												<td class="logintext1">&nbsp;</td>
+											</tr>
+											<INPUT TYPE="HIDDEN" NAME="login-form-type" VALUE="pwd">
+										</table></td>
+								</tr>
+							</table></td>
+
+						<SCRIPT LANGUAGE=JavaScript>
+							var error = "";
+							error = ''
+							if (error != "")
+								alert("Invalid Username or Password");
+						</SCRIPT>
+						<td bgcolor="#FFFFFF">&nbsp;</td>
+					</tr>
+					<tr>
+						<td width="13" height="49" valign="top"><img
+							src="images/botleftimg.jpg" width="13" height="49" /></td>
+						<td height="49" background="images/botmidimg.jpg"><table
+								width="100%" border="0" cellspacing="0" cellpadding="0">
+								<tr>
+									<td width="20%" align="right"><input name="button"
+										type="button" id="button_fp" class="passwordbtn"
+										value="Forgot Password" onclick="move()" /></td>
+									<td width="35%">&nbsp;</td>
+									<td width="25%"><input name="button" type="SUBMIT"
+										id="button" class="loginbtn" value="Login"
+										onclick="return check();" /></td>
+									</form>
+								</tr>
+							</table></td>
+						<td valign="top"><img src="images/botrightimg.jpg"
+							width="12" height="49" /></td>
+					</tr>
+				</table></td>
+		</tr>
+		<tr>
+			<td colspan="3" bgcolor="#0a7cba">&nbsp;</td>
+		</tr>
+	</table>
+	</FORM>
+</body>
+
+<!-- Mirrored from metsso.pmli.corp/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 12 Dec 2023 11:50:10 GMT -->
+</html>

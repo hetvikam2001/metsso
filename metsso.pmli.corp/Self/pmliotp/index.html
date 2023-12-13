@@ -1,0 +1,147 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<!-- Mirrored from metsso.pmli.corp/Self/pmliotp/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 12 Dec 2023 11:50:14 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=ISO-8859-1" /><!-- /Added by HTTrack -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Forgot Your Password</title>
+<SCRIPT LANGUAGE=JavaScript>
+	function check() {
+		if (document.getElementById("userID").value == '') {
+			alert("You must enter your MetSSO ID to login");
+			document.getElementById("userID").focus();
+			return false;
+		}
+
+	}
+</script>
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #0A7CBA;
+}
+.logintitle{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	color:#fff;
+}
+.logintext{ font-family:Verdana, Geneva, sans-serif; font-size:12px; font-weight:bold; color:#666;}
+.logintext1{ font-family:Verdana, Geneva, sans-serif; font-size:12px; font-weight:normal; color:#666;}
+.loginbtn{font-family:"Arial", Gadget, sans-serif; width:100px; height:30px; background:url(images/loginbtn.jpg); background-repeat:no-repeat; border:none;}
+.border{ border-bottom:1px solid #999;}
+-->
+
+</style>
+
+<style type="text/css">
+<!--
+A:link { COLOR:#666}
+A:visited { COLOR:#666}
+A:active { COLOR:#666}
+A:hover { COLOR: blue}
+-->
+</style>
+</head>
+<body>
+	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+
+		<tr>
+			<td width="2%" height="98" valign="baseline"
+				background="images/topbanbg.png" bgcolor="#FEFFFA">&nbsp;</td>
+			<td width="83%" valign="baseline" background="images/topbanbg.png"
+				bgcolor="#FEFFFA"><br> <img ALIGN="MIDDLE"
+				src="images/loginlogo.png" width="121" height="70" /></td>
+			<td width="10%" valign="middle" background="images/topbanbg.png"
+				bgcolor="#FEFFFA"><table width="95%" border="0" cellspacing="0"
+					cellpadding="0">
+					<tr>
+						<td height="92" valign="bottom"><img src="images/logo.jpg"
+							width="175" height="70" /></td>
+					</tr>
+				</table></td>
+		</tr>
+
+		<tr>
+			<td height="140" colspan="3">&nbsp;</td>
+		</tr>
+		<tr>
+			<td colspan="3"><table width="450" border="0" align="center"
+					cellpadding="0" cellspacing="0">
+					<tr>
+						<td width="13" height="30" valign="top"><img
+							src="images/topleftimg.jpg" width="13" height="30" /></td>
+						<td background="images/topmidimg.jpg" class="logintitle"></td>
+						<td width="12" height="30" valign="top"><img
+							src="images/toprightimg.jpg" width="12" height="30" /></td>
+					</tr>
+					<tr>
+						<td bgcolor="#FFFFFF">&nbsp;</td>
+						<td valign="top" bgcolor="#FFFFFF"><table width="95%"
+								border="0" align="center" cellpadding="0" cellspacing="0">
+								<tr>
+									<td height="76" valign="top"><img
+										src="images/loginicon.jpg" width="89" height="76" /></td>
+									<td>&nbsp;</td>
+									<br />
+									<td colspan="2" width="100%">
+										<table width="55%" border="0" align="center" cellpadding="2"
+											cellspacing="2">
+											<tr>
+												<form action="https://metsso.pmli.corp/Self/pmliotp/Controller" method="post">
+													<FONT SIZE="-1">
+														<tr>
+
+															<td width="35%" class="logintext" align="center">SSO-ID:</td>
+															<td width="65%" valign="top" align="center"><label>
+																	<input type="text" name="userID" id="userID" maxlength="15"/> <input type='hidden' name='action2' value='login' />
+															</label></td>
+
+														</tr>
+														<tr>
+														
+														</tr>
+														</td>
+										</table></td>
+								</tr>
+								<tr>
+
+								</tr>
+							</table></td>
+
+						<td bgcolor="#FFFFFF">&nbsp;</td>
+					</tr>
+					<tr>
+						<td width="13" height="49" valign="top"><img
+							src="images/botleftimg.jpg" width="13" height="49" /></td>
+						<td height="49" background="images/botmidimg.jpg"><table
+								width="85%" border="0" cellspacing="0" cellpadding="0">
+								<tr>
+									<td width="51%">&nbsp;</td>
+									<td width="49%"><label> <input type="submit"
+											class="buttonsub" value="Login" onclick="return check();" />
+									</label></td>
+
+								</tr>
+							</table></td>
+						<td valign="top"><img src="images/botrightimg.jpg" width="12"
+							height="49" /></td>
+					</tr>
+				</table></td>
+		</tr>
+		<tr>
+			<td colspan="2" bgcolor="#0a7cba">&nbsp;</td>
+		</tr>
+	</table>
+	</form>
+
+</body>
+
+<!-- Mirrored from metsso.pmli.corp/Self/pmliotp/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 12 Dec 2023 11:50:14 GMT -->
+</html>
